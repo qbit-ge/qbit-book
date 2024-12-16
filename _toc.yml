@@ -4,5 +4,7 @@ format: jb-book
 root: content/intro  # The root file of your book
 
 chapters:
-  - file: content/chapter1  # Chapter 1
-  - file: content/chapter2  # Chapter 2
+  - file: content/part1/main
+  - file: content/part2/main
+  - file: content/part3/main
+  - file: content/part4/main
