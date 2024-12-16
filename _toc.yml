@@ -3,8 +3,22 @@ format: jb-book
 
 root: content/intro  # The root file of your book
 
-chapters:
-  - file: content/part1/main
-  - file: content/part2/main
-  - file: content/part3/main
-  - file: content/part4/main
+parts:
+  - caption: ნაწილი I
+    chapters:
+      - file: content/part1/main
+      
+  - caption: ნაწილი II
+    chapters:
+      - file: content/part2/main
+
+  - caption: ნაწილი III
+    chapters:
+      - file: content/part3/main
+
+
+  - caption: ნაწილი IV
+    chapters:
+      - file: content/part4/main
+
+
