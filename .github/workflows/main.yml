@@ -1,4 +1,4 @@
-name: Deploy Jupyter Book to GitHub Pages
+name: Deploy QBit Book to GitHub Pages
 
 on:
   push:
