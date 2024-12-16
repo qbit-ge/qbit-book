@@ -3,9 +3,6 @@ name: Deploy Jupyter Book to GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy when changes are pushed to the `main` branch
-  pull_request:
-    branches:
       - main
 
 jobs:
@@ -35,5 +32,7 @@ jobs:
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ghp-import -n -p -f _build/html
