@@ -1,0 +1,91 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.VENV/
+
+# Cache files
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+*.cache/
+.cache/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Sphinx and JupyterBook build files
+_build/
+jupyter_execute/
+htmlcov/
+doctrees/
+output/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Node.js files (if using live-server or similar tools)
+node_modules/
+
+# Environment configuration
+.env
+.env.*
+*.secret
+
+# Jupyter notebook metadata
+.ipynb_checkpoints/
+*.ipynb~
+
+# Distribution/Packaging
+dist/
+build/
+*.egg
+
+# Coverage reports
+*.coverage
+.coverage.*
+*.cover
+*.coveragerc
+coverage.xml
+
+# Pytest and testing-related
+.cache/
+.tox/
+.nox/
+
+# Temporary backups
+*~
